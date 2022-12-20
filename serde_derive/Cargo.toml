@@ -22,7 +22,7 @@ proc-macro = true
 [dependencies]
 proc-macro2 = "1.0.43"
 quote = "1.0"
-syn = { version = "1.0.33", features = ["visit"] }
+syn = { version = "1.0.99", features = ["visit"] }
 
 [dev-dependencies]
 serde = { version = "1.0", path = "../serde", default-features = false, features = ["std"] }
