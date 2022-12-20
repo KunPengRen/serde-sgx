@@ -14,7 +14,7 @@ include = ["lib.rs", "src/**/*.rs", "LICENSE-APACHE", "LICENSE-MIT"]
 path = "lib.rs"
 
 [dependencies]
-proc-macro2 = "1.0"
+proc-macro2 = "1.0.43"
 quote = "1.0"
 syn = { version = "1.0.33", default-features = false, features = ["derive", "parsing", "printing", "clone-impls"] }
 
